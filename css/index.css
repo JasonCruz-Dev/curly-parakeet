@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-family: ff-basic-gothic-web-pro-1, ff-basic-gothic-web-pro-2, AppleGothic, "helvetica neue",
+    "Roboto", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  .container .about-section.about p {
+    text-align: justify;
+    width: 70%;
+    font-size: 10px;
+  }
+}
+.container .nav-content {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2%;
+  padding: 5px;
+}
+.container .nav-content a {
+  line-height: 1rem;
+  text-decoration: none;
+  padding: 20px;
+  margin: 3px;
+  color: black;
+  font-weight: bold;
+}
+.container .top-header {
+  background: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  padding-left: 28px;
+  padding-bottom: 68px;
+  margin: 3px;
+}
+.container .top-header .top-logo {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 2%;
+}
+.container .top-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
+.container .top-header h2 {
+  margin-bottom: 2%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid black;
+}
+.container .top-header .button {
+  margin-top: 3%;
+  padding: 10px 10px;
+  border-radius: 4px;
+  background-color: #6b6e6f;
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.container .bold {
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.container .about-section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 2%;
+}
+.container .about-section .about {
+  width: 50%;
+}
+.container .about-section .about p {
+  line-height: 1.8em;
+  text-align: justify;
+  width: 70%;
+  font-size: 20px;
+}
+.container .about-section .things-good-at {
+  width: 50%;
+}
+.container .about-section .things-good-at ul li {
+  padding: 2%;
+  list-style-type: none;
+  border: 0.5px solid grey;
+  line-height: 2.4em;
+}
+.container .experience {
+  padding-top: 2%;
+  width: 100%;
+}
+.container .experience table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+.container .experience table td,
+.container .experience table th {
+  border-top: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.container .experience table .wh-bold {
+  font-weight: 900;
+}
+.container .experience tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.container .about-me {
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+.footer {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  background: #494848;
+  margin-top: 3%;
+}
+.footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  padding-top: 5%;
+}
